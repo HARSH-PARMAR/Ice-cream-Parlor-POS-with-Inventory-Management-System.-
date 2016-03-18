@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B848DF1C-2B17-4F71-9BF8-1F67197D540D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>iceparlor</RootNamespace>
+    <AssemblyName>iceparlor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="addFlavorDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>addFlavorDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="addFlavorsDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>addFlavorsDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="add_flavorform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="add_flavorform.Designer.cs">
+      <DependentUpon>add_flavorform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="billsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>billsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="containerDataSet.cs">
+      <DependentUpon>containerDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="containerDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>containerDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CONTAINERS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CONTAINERS.Designer.cs">
+      <DependentUpon>CONTAINERS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employee_info.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employee_info.Designer.cs">
+      <DependentUpon>Employee_info.cs</DependentUpon>
+    </Compile>
+    <Compile Include="flavoranalyticsDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>flavoranalyticsDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="flavorDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>flavorDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="flavoursDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>flavoursDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="icrecreamparlorDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icrecreamparlorDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IceCreamParlor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IceCreamParlor.Designer.cs">
+      <DependentUpon>IceCreamParlor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="icrecreamparlorDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icrecreamparlorDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="icrecreamparlorDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icrecreamparlorDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="icrecreamparlorDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icrecreamparlorDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="icrecreamparlorDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icrecreamparlorDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="icrecreamparlorDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>icrecreamparlorDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="MENU.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MENU.Designer.cs">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="salesDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>salesDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sales.Designer.cs">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="usersDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>usersDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="add_flavorform.resx">
+      <DependentUpon>add_flavorform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CONTAINERS.resx">
+      <DependentUpon>CONTAINERS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employee_info.resx">
+      <DependentUpon>Employee_info.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IceCreamParlor.resx">
+      <DependentUpon>IceCreamParlor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MENU.resx">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Sales.resx">
+      <DependentUpon>Sales.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="addFlavorDataSet2.xsc">
+      <DependentUpon>addFlavorDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="addFlavorDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>addFlavorDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="addFlavorDataSet2.xss">
+      <DependentUpon>addFlavorDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="addFlavorsDataSet2.xsc">
+      <DependentUpon>addFlavorsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="addFlavorsDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>addFlavorsDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="addFlavorsDataSet2.xss">
+      <DependentUpon>addFlavorsDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="billsDataSet.xsc">
+      <DependentUpon>billsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="billsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>billsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="billsDataSet.xss">
+      <DependentUpon>billsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="containerDataSet.xsc">
+      <DependentUpon>containerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="containerDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>containerDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="containerDataSet.xss">
+      <DependentUpon>containerDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="flavoranalyticsDataSet6.xsc">
+      <DependentUpon>flavoranalyticsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="flavoranalyticsDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>flavoranalyticsDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="flavoranalyticsDataSet6.xss">
+      <DependentUpon>flavoranalyticsDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="flavorDataSet3.xsc">
+      <DependentUpon>flavorDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="flavorDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>flavorDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="flavorDataSet3.xss">
+      <DependentUpon>flavorDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="flavoursDataSet.xsc">
+      <DependentUpon>flavoursDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="flavoursDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>flavoursDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="flavoursDataSet.xss">
+      <DependentUpon>flavoursDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet.xsc">
+      <DependentUpon>icrecreamparlorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icrecreamparlorDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="icrecreamparlorDataSet.xss">
+      <DependentUpon>icrecreamparlorDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet1.xsc">
+      <DependentUpon>icrecreamparlorDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icrecreamparlorDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="icrecreamparlorDataSet1.xss">
+      <DependentUpon>icrecreamparlorDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet2.xsc">
+      <DependentUpon>icrecreamparlorDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icrecreamparlorDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="icrecreamparlorDataSet2.xss">
+      <DependentUpon>icrecreamparlorDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet3.xsc">
+      <DependentUpon>icrecreamparlorDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icrecreamparlorDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="icrecreamparlorDataSet3.xss">
+      <DependentUpon>icrecreamparlorDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet4.xsc">
+      <DependentUpon>icrecreamparlorDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icrecreamparlorDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="icrecreamparlorDataSet4.xss">
+      <DependentUpon>icrecreamparlorDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet5.xsc">
+      <DependentUpon>icrecreamparlorDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="icrecreamparlorDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>icrecreamparlorDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="icrecreamparlorDataSet5.xss">
+      <DependentUpon>icrecreamparlorDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="salesDataSet2.xsc">
+      <DependentUpon>salesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="salesDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>salesDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="salesDataSet2.xss">
+      <DependentUpon>salesDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="usersDataSet.xsc">
+      <DependentUpon>usersDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="usersDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>usersDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="usersDataSet.xss">
+      <DependentUpon>usersDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="report.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="report_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>report.mdf</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

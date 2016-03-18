@@ -1,0 +1,34 @@
+E:\visual studio files\iceparlor\iceparlor\bin\Debug\iceparlor.exe.config
+E:\visual studio files\iceparlor\iceparlor\bin\Debug\iceparlor.exe
+E:\visual studio files\iceparlor\iceparlor\bin\Debug\iceparlor.pdb
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.csprojResolveAssemblyReference.cache
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.Form3.resources
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.Properties.Resources.resources
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.csproj.GenerateResource.Cache
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.exe
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.pdb
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.addFlavor.resources
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.Sales.resources
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.MENU.resources
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.CONTAINERS.resources
+E:\visual studio files\iceparlor\iceparlor\bin\Debug\report.mdf
+E:\visual studio files\iceparlor\iceparlor\bin\Debug\report_log.ldf
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.LOGIN.resources
+E:\visual studio files\iceparlor\iceparlor\obj\Debug\iceparlor.Employee_info.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\bin\Debug\iceparlor.exe.config
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.exe
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.pdb
+E:\visual studio files\SAP 66 AND 62\iceparlor\bin\Debug\report.mdf
+E:\visual studio files\SAP 66 AND 62\iceparlor\bin\Debug\report_log.ldf
+E:\visual studio files\SAP 66 AND 62\iceparlor\bin\Debug\iceparlor.exe
+E:\visual studio files\SAP 66 AND 62\iceparlor\bin\Debug\iceparlor.pdb
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.csprojResolveAssemblyReference.cache
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.addFlavor.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.CONTAINERS.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.Employee_info.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.LOGIN.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.Form3.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.MENU.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.Properties.Resources.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.Sales.resources
+E:\visual studio files\SAP 66 AND 62\iceparlor\obj\Debug\iceparlor.csproj.GenerateResource.Cache
